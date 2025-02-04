@@ -2,5 +2,10 @@ This repository contains the full pipeline for generating numerical simulations 
 
 The original code was written using Jupyter Notebook and can be found in particle-laden-flow/notebook-code.
 
+The pipeline contains three parts:
+1) Generating numerical solutions for the conservation law fluxes
+2) Solving the conservation law systems
+3) Plotting numerical simulations of fluid fronts against experimental data
+
 
 This code was developed by Wing Pok Lee, Jonathan Woo, Luke Triplett, and Yifan Gu with assistance from Hong Kiat Tan.
