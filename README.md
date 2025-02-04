@@ -5,13 +5,13 @@ The original code was written using Jupyter Notebook and can be found in particl
 The pipeline contains three parts:
 
 Part 1 generates the numerical conservation law fluxes from solutions to the equilibrium equations (8) and (11) in the paper. It is used to create Figure 2.
-Files: particle-laden-flow/notebook-code/equilibrium-ode-solver.ipynb
+File: particle-laden-flow/notebook-code/equilibrium-ode-solver.ipynb
 
 Part 2 solves the conservation law system (12) and stores the computed liquid and particle front data used for Part 3.
-Files: particle-laden-flow/notebook-code/conservation-law-pde-solver.ipynb
+File: particle-laden-flow/notebook-code/conservation-law-pde-solver.ipynb
 
 Part 3 plots the numerical simulations of fluid fronts against experimental data as in Figure 4 of the paper.
-Files: particle-laden-flow/notebook-code/plot-generator.ipynb
+File: particle-laden-flow/notebook-code/plot-generator.ipynb
  
 
 Python packages and modules required:
