@@ -1,4 +1,4 @@
-This repository contains the full pipeline for generating numerical simulations to particle-laden flows as used in the research paper 'A comparative study of dynamic models for gravity-driven particle-laden flows', accepted for publication at Applied Mathematics Letters, 2025 (see also https://arxiv.org/abs/2410.23561).
+This repository contains the full pipeline for generating numerical simulations to particle-laden flows as used in the research paper 'A comparative study of dynamic models for gravity-driven particle-laden flows', published at Applied Mathematics Letters, 2025 (see https://authors.elsevier.com/c/1kaYY3BGwfPgHq).
 
 The original code was written using Jupyter Notebook and can be found in particle-laden-flow/notebook-code. Each file is written to allow contiguous execution.
 
@@ -19,4 +19,14 @@ NumPy (https://numpy.org), Matplotlib (https://matplotlib.org), Matplotlib-label
 
 This code was developed by Wing Pok Lee, Jonathan Woo, Luke Triplett, and Yifan Gu with assistance from Hong Kiat Tan.
 
+If you use our code for academic research, we would appreciate it if you could cite our paper:
 
+```bibtex
+@article{lee2025comparative,
+  title={A comparative study of dynamic models for gravity-driven particle-laden flows},
+  author={Lee, Wing Pok and Woo, Jonathan D and Triplett, Luke F and Gu, Yifan and Burnett, Sarah C and Ding, Lingyun and Bertozzi, Andrea L},
+  journal={Applied Mathematics Letters},
+  pages={109480},
+  year={2025},
+  publisher={Elsevier}
+}
